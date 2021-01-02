@@ -18,12 +18,12 @@
  ```
  
  # Usage
- # Server-side: <br/>
+ # <h3>Server-side:</h3> <br/>
 Above all, a terminal for the server side is opened. This terminal must operate the ```main.py``` file, so the software can be utilized by administrator and users. When the database isn't generated, with the ```db.create all()``` function which was included at the end of code, must be used in the ```main.py``` file. Server terminal will be stopped manually with entering Ctrl+c in this terminal. <br/>
 ```
 python3 main.py
 ```
- # Client side: <br/>
+ #  <h3>Client-side:</h3> <br/>
  * Admin: <br/>
   After that, the ```insert_admin.py``` file must be executed , due to the admin's username and password should be applied to the database and admin can manage the application. Then client can run the ```admin.py``` file on another terminal if he/she choose to utilize the application as an admin. At the begining of the sesssion admin will need to enter login details (username and password). If authentication and authorization are accurate, then one of the these criteria can be entered as an input: add, update, delete, get, get, all or end. If you select end, the session will be stopped. Instead that, in order to perform the add, get, delete and update functions, admin will be required to select some relevant information.The administrator has to end the session after having the required data.<br/>
   ```
