@@ -3,8 +3,8 @@
 <i>This is a client-server based console app that is developed by utilizing Flask Restful API, Flask SQLAlchemy and OOP approach.</i>
 
 # Scenario 
-* Admin – user that has access to get, post, update and delete flight data
-* Client – user that has access to get the data
+* <b>Admin</b> – user that has access to get, post, update and delete flight data
+* <b>User</b> – user that has access to get the data
 
 # Installation
  To download console app, you need to type following command:<br/>
